@@ -42,20 +42,21 @@ In this repo, you’ll find Java solutions that:
 
 ## 🛠 Core Java Terminology & Concepts
 
-#Variables - used to store data types
+### Variables - are used to store data types
 - every variable must have a data type
-- must have
+- Must have a unique name within its scope
 
-int age = 25;
-String name = "Keshawn";
-boolean isActive = true;
-
-#Data types - Java has two main data type categories
+### Data types - Java has two main data type categories
 1. Primitive Data Types
-   - int
-   - double
-   - char
-   - boolean
+   - byte myByte = 127; --> Smallest integer type. Range: -128 to 127.
+   - short myShort = 32000; --> Larger than byte, smaller than int. Range: -32,768 to 32,767.
+   - int myInt = 2147000000; --> Default integer type. Range: -2,147,483,648 to 2,147,483,647.
+   - long myLong = 9223372036854775807L; --> Larger integer type for wider range. Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+   - float myFloat = 3.14159f; --> Single-precision 32-bit floating point. Use 'f' suffix to denote float literal.
+   - double myDouble = 3.141592653589793; --> Double-precision 64-bit floating point. Default for floating-point numbers.
+   - boolean myBool = true; --> Holds either true or false
+   - char myChar = 'A'; --> Single 16-bit Unicode character.
+     
 2. Reference Data Type
    - String
    - Arrays
